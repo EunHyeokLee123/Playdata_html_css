@@ -1,0 +1,7 @@
+/* css에서 다른 css를 불러오는 방법 */
+@import './side.css';
+
+h1, p{
+    color: darksalmon;
+    background-color: darkslategrey;
+}

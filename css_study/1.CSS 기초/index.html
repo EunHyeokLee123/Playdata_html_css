@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 내부스타일 주석 기호 */
+        #orange{
+            color: orange;
+        }
+        .apple{
+            color: red;
+        }
+        #banana{
+            color: yellow;
+        }
+        span.orange{
+            color: blue;
+        }
+
+        ul > .apple {
+            color: darkolivegreen;
+        }
+        ul > li {
+            font-weight: bold;
+        }
+    </style>
+    <!--외부 스타일-->
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <h1>개구쟁이 춘식이</h1>
+    <div>안녕~~~~~</div>
+    <!--인라인스타일 방식 -> 권장X-->
+    <span class="orange">킁캉캉</span>
+    <p>졸려 집가고싶다</p>
+
+    <ii class="apple"> 아오진짜 </ii>
+
+    <ul>
+        <li class="apple">사과</li>
+        
+        <!--id는 중복되면 안됨. 차라리 클래스를 사용해라-->
+
+        <li id="orange">오렌지</li>
+        <li id="banana">바나나</li>
+    </ul>
+
+</body>
+</html>
